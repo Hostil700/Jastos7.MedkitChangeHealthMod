@@ -15,5 +15,5 @@ Hello. This is my first mod for Subnautica which is just changes how much does t
 
 ## Configuration
 After a first launch the game with this mod, it will create a cfg file. The path is:
-`BepInEx/config/com.jastos7.medkitchangehealth.cfg`
+`BepInEx/config/com.jastos7.medkitchangehealth.cfg`.
 Change MedkitHealth to the amount of HP you want medkits to restore.

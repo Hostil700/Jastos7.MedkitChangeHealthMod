@@ -3,10 +3,9 @@ using BepInEx.Logging;
 using HarmonyLib;
 
 
-
 namespace Jastos7.MedkitChangeHealthMod
 {
-    [BepInPlugin("com.jastos7.medkitchangehealth", "Medkit Change Health", "1.0.0")]
+    [BepInPlugin("com.jastos7.medkitchangehealth", "Medkit Change Health", "1.1.0")]
     public class MedkitChangeHealthPlugin : BaseUnityPlugin
     {
 
@@ -14,7 +13,7 @@ namespace Jastos7.MedkitChangeHealthMod
         void Awake()
         {
             Log = Logger;
-            Log.LogInfo("Medkit Change Health 1.0.0 loaded.");
+            Log.LogInfo("Medkit Change Health 1.1.0 loaded.");
             ConfigMod.MedkitHealth = Config.Bind<float>(
                 "General",
                 "MedkitHealth",
